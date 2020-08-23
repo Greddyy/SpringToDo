@@ -1,4 +1,4 @@
-package com.todo.todoapp.Model;
+package com.todo.todoapp.model;
 
 import javax.persistence.*;
 import java.util.List;
