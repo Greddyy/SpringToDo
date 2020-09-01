@@ -24,8 +24,8 @@ public class EntryService {
         return entryRepository.findById(id);
     }
 
-    public void saveEntry(Entry entry){
-        entryRepository.save(entry);
+    public Entry saveEntry(Entry entry){
+        return entryRepository.save(entry);
     }
 
 
